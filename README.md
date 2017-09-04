@@ -1,5 +1,5 @@
- jsonp(url, opts, fn)
-
+- jsonp(url, opts, fn)
+```
  url,
  opts: {
     {string}  prefix  默认为__jp
@@ -9,7 +9,7 @@
     {function} onload 默认为undefined 可以用作异步按需加载js文件时使用，文件加载完成后调用该函数
   },
   fn  服务器返回数据时回调 function(err, data){}
-
+```
 
 ```
     // 请求jsonp
